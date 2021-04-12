@@ -110,8 +110,5 @@ echo "ID: $sam->getKid \nVorname:$sam->getVname \nNachname: $sam->getNname \nEma
 
 
 
-//Sichtbarkeit
-//public: Vollzugriff für alle
-//protected: nur innerhalb der Klasse und in vererbten Klassen zugreifen
-//private: nur innerhalb der Klasse n
+
 ?>
