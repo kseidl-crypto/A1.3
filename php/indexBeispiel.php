@@ -104,7 +104,7 @@ class Kunde
 //Referenzieren in PHP
 
 //-new- => neue Objekte erzeugt werden
-$sam = new Kunde('Sam', 'Müller', 1, $email);
+$sam = new Kunde($vname, $nname, $kid, $email);
 
 //durch Pfeile -> auf Eigenschaften der Objekte zugreifen
 
