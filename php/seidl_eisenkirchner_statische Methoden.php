@@ -5,17 +5,19 @@
 
 //KLasse die ein A mit angegebenen hs schreitb
 class Ah {
-    public $a = 'A';
+
 
     public static function ha_s($zahl){
+        $a = "A";
         for($i = 0; $i < $zahl; $i ++){
-            $a += 'h';
+            $a = $a.'h';
         }
-        $a += '!';
+        $a = $a.'!';
         return $a;
-}
+    }
 
 
 }
+echo "<br>";
 //Sollte nun das A ausgeben
 echo Ah :: ha_s(3);
