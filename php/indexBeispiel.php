@@ -113,5 +113,22 @@ echo "<br>Vorname: ".$sam->getVname();
 echo "<br>Nachname: ".$sam->getNname();
 echo "<br>Email: ".$sam->getEmail();
 
+class Ah {
+
+
+    public static function ha_s($zahl){
+        $a = "A";
+        for($i = 0; $i < $zahl; $i ++){
+            $a = $a.'h';
+        }
+        $a = $a.'!';
+        return $a;
+    }
+
+
+}
+echo "<br>";
+//Sollte nun das A ausgeben
+echo Ah :: ha_s(3);
 
 ?>

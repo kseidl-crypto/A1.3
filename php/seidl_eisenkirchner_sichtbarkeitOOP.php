@@ -24,6 +24,6 @@ class Kunde{
 $k1 = new Kunde();
 $k1 -> id = 1;
 
-//Fehler
+//Fehler, da protected
 //$k1 -> name = "Heinz";
 ?>

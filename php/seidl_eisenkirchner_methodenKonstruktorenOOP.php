@@ -101,5 +101,5 @@ class Kunde
 $sam = new Kunde('Sam', 'Müller', 1, 'sam@müller.at');
 
 //durch Pfeile -> auf Eigenschaften der Objekte zugreifen
-echo "ID: $sam->getKid \nVorname:$sam->getVname \nNachname: $sam->getNname \nEmail:$sam->getEmail";
+echo "ID: ".$sam->getKid();
 ?>
